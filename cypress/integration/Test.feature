@@ -1,7 +1,7 @@
 # language: pt
 Funcionalidade: Test
-
 Desafio Cypress com Cucumber
+
 
 Esquema do Cenario: Fazer login na página
     Dado que eu acesso a pagina
@@ -22,7 +22,6 @@ Esquema do Cenario: Fazer login com usuário bloqueado
         Exemplos:
         | usuario         | senha        |
         | locked_out_user | secret_sauce |
-
 
 Esquema do Cenario: Verificar conteúdo da página de produtos
     Dado que eu acesso a pagina

@@ -1,13 +1,12 @@
 # language: pt
 Funcionalidade: CompraDeProduto
-Como um cliete que acessa um marketplace
+Como um cliente que acessa um marketplace
 Paula quer realizar o pedido de um produto
 Para que possa receber o item
 
 Esquema do Cenario: Realizar uma compra com sucesso e voltar para a página de produtos
     Dado que eu acesso a pagina
-    Quando informo "<usuario>" e "<senha>"
-    E clico em login
+    Quando informo "<usuario>" e "<senha>" e clico em login
     E adiciono a mochila no carrinho
     E clico no carrinho
     E faço checkout

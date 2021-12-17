@@ -6,8 +6,7 @@ Para que possa visualizar os produtos
 
 Esquema do Cenario: Fazer login na página
     Dado que eu acesso a pagina
-    Quando informo "<usuario>" e "<senha>"
-    E clico em login
+    Quando informo "<usuario>" e "<senha>" e clico em login
     Entao devo conseguir acessar a pagina de produtos
         Exemplos:
         | usuario       | senha        |
@@ -16,8 +15,7 @@ Esquema do Cenario: Fazer login na página
 
 Esquema do Cenario: Fazer login com usuário bloqueado
     Dado que eu acesso a pagina
-    Quando informo "<usuario>" e "<senha>"
-    E clico em login
+    Quando informo "<usuario>" e "<senha>" e clico em login
     Entao devo receber uma mensagem de bloqueio
         Exemplos:
         | usuario         | senha        |
